@@ -84,6 +84,16 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="287dp"/> <!--Designtime attribute-->
+        tools:layout_editor_absoluteY="287dp"/>
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/tap_the_boxes_and_buttons"
+        app:layout_constraintStart_toEndOf="@+id/label_text"
+        tools:layout_editor_absoluteY="351dp" /> <!--Designtime attribute-->
 
 </android.support.constraint.ConstraintLayout>
